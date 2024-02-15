@@ -1,0 +1,1 @@
+console.log("Hello there!"),"".concat(10);
