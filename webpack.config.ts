@@ -1,8 +1,8 @@
-const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const webpack = require('webpack')
+import path from "path";
+import webpack from "webpack";
+import HtmlWebpackPlugin from "html-webpack-plugin";
 
-module.exports = {
+const config: webpack.Configuration = {
   mode: "production", // development | production
   entry: path.resolve(__dirname, "src", "index.ts"), // Аналогичная запись, но пути могут отличаться по этому используем path './src/index.js'
   output: {
@@ -28,4 +28,6 @@ module.exports = {
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
   },
-}; 
+};
+
+export default config;
