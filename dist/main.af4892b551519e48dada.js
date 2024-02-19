@@ -1,1 +1,0 @@
-console.log("".concat(10)),"".concat(10);
