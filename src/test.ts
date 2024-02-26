@@ -1,1 +1,1 @@
-export const Random = () => console.log('Random Function!')
+export const Random = () => console.log("Random Function!123");

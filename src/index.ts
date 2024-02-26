@@ -1,3 +1,5 @@
+import { Random } from "./test";
+
 const General = (arg: number): string => {
   console.log(`${arg + 5}`);
 
@@ -5,3 +7,5 @@ const General = (arg: number): string => {
 };
 
 General(5);
+
+Random();
