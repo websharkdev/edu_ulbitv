@@ -30,9 +30,11 @@
   },
   "dependencies": {
     "@types/node": "^20.11.19",
+    "@types/react-router-dom": "^5.3.3",
     "@types/webpack": "^5.28.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
     "ts-node": "^10.9.2"
   }
 }
